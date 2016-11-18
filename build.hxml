@@ -1,0 +1,5 @@
+-cp src
+-main Main
+-js html/files/js/script.js
+-lib react
+-cp ../../../../haxe/

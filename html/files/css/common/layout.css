@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import "base.css";
+@import "lightbox.css";
+
+/*-------------------------------------------------------------------------
+	All
+/*-----------------------------------------------------------------------*/
+#all {
+}
+
+	#all .wrap {
+		position:relative;
+		max-width:960px;
+		margin:0 auto;
+	}
+
+	#all .text,
+	#all .summary {
+		text-align:justify;
+		text-justify:inter-ideograph;
+	}
+	
+@media screen and (max-width:960px) {
+
+	#all .wrap {
+		padding:0 20px;
+	}
+
+	#all img {
+		width:100%;
+		height:auto;
+	}
+
+}

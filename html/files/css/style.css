@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import "common/layout.css";
+
+/*-------------------------------------------------------------------------
+	All
+/*-----------------------------------------------------------------------*/
+#all {
+	padding:5%;
+}
+
+/*-------------------------------------------------------------------------
+	App
+/*-----------------------------------------------------------------------*/
+#app {
+}
+
+	#app .member {
+		margin-bottom:20px;
+	}
+	
+		#app .member .title {
+			display:inline-block;
+			padding:3px 10px;
+			background:#555;
+			color:#fff;
+			font-size:18px;
+		}
+		
+		#app .member .scores {
+		}
+		
+			#app .member .scores li {
+				float:left;
+				margin-right:20px;
+			}
+			
+				#app .member .scores li .no {
+					margin-right:5px;
+					font-weight:bold;
+				}
+				
+				#app .member .scores li .score {
+					font-size:18px;
+				}
+				
+				#app .member .scores li .score.cool {
+					color:#f00;
+				}
+				
+			#app .member .scores li.total {
+				clear:both;
+				font-size:24px;
+			}
+			
+			#app .member .scores li.total.cool {
+				font-weight:bold;
+			}
